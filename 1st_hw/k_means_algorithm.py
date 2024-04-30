@@ -18,6 +18,7 @@ centroids = X[np.random.choice(range(len(X)), k, replace=False)]
 
 
 # Функция для вычисления расстояния между точками
+# сумма квадратов расстояний
 def distance(a, b):
     return np.sqrt(np.sum((a - b) ** 2))
 
